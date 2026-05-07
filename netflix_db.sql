@@ -1,6 +1,8 @@
+--CREATE DATABASE
 CREATE DATABASE netflix_db;
 USE netflix_db;
 
+--CREATE TABLE
 CREATE TABLE netflix (
     show_id VARCHAR(10),
     type VARCHAR(20),
