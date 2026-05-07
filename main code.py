@@ -12,7 +12,7 @@ df = df.replace({np.nan: None})
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="admin123",
+    password="ENTER_YOUR_PASSWORD_HERE",#GENREALLY its 12345678 or admin123
     database="netflix_db"
 )
 
